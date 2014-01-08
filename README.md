@@ -10,8 +10,10 @@ The Cordova ExternalFileUtilIos Plugin is a native Plugin for PhoneGap/Apache Co
 The plugin accepts a URL path to the document which you want to open, as well as the UTI (uniform type identifier).  The plugin will then display an "open with" dialog which allows the user to select which file to use for opening the document.
 
 Sample usage for a PDF document:
+--------------------------------
 
-var ExternalFileUtil = cordova.require('com.techblue.cordova.plugin.externalfileutilios.ExternalFileUtilIos');
+var ExternalFileUtil = cordova.require('com.techblue.cordova.plugin.externalfileutilios.ExternalFileUtilIos'); 
+
 ExternalFileUtil.openWith( "http://www.tricedesigns.com/temp/log_samsung.pdf", "com.adobe.pdf" );
 
 The PhoneGap native plugin is written in Objective C, with a JavaScript interface to integrate with the client application. 

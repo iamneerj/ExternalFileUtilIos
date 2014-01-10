@@ -15,7 +15,7 @@ Sample usage for a PDF document:
 ```var ExternalFileUtil = cordova.require('com.techblue.cordova.plugin.externalfileutilios.ExternalFileUtilIos');```  ```ExternalFileUtil.openWith( "http://www.tricedesigns.com/temp/log_samsung.pdf", "com.adobe.pdf" );```  
 
 
-The PhoneGap native plugin is written in Objective C, with a JavaScript interface to integrate with the client application. The plugin workflow is as follows:  
+The PhoneGap native plugin is written in Objective C, with a JavaScript interface to integrate with the client application. It supports Cordova version 2.5 or higher. The plugin workflow is as follows:  
 
 1) App requests openWith action, specifying a file URL and UTI.  
 2) Plugin downloads the file and saves as a local temp file.  

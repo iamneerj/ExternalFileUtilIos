@@ -23,4 +23,4 @@ The plugin workflow is as follows:
 3) Plugin uses UIDocumentInteractionController to launch an "open with" dialog
 4) User selects appropriate app to "preview" the content
 5) The appropriate reader app is opened and UI/input is changed to that app
-6) Plugin deletes the temp file 
+6) Plugin deletes the temp file.

@@ -2,7 +2,7 @@ ExternalFileUtilIos
 -------------------
 
 PhoneGap iOS ExternalFileUtilIos Plugin  
-by: Neeraj Sharma  
+By: Neeraj Sharma, Technology Blueprint Ltd.    
 
 The Cordova ExternalFileUtilIos Plugin is a native Plugin for PhoneGap/Apache Cordova which provides the ability to open documents in an external program on the iOS device. A sample use case would be that you want to provide the user the ability to open a file in another program, of their choosing. For instance, the user wants to open a PDF file in Adobe Reader.
 

@@ -12,8 +12,8 @@ The plugin accepts a URL path to the document which you want to open, as well as
 
 Sample usage for a PDF document:
 
-var ExternalFileUtil = cordova.require('com.techblue.cordova.plugin.externalfileutilios.ExternalFileUtilIos');  
-ExternalFileUtil.openWith( "http://www.tricedesigns.com/temp/log_samsung.pdf", "com.adobe.pdf" );
+```var ExternalFileUtil = cordova.require('com.techblue.cordova.plugin.externalfileutilios.ExternalFileUtilIos');  
+ExternalFileUtil.openWith( "http://www.tricedesigns.com/temp/log_samsung.pdf", "com.adobe.pdf" );```
 
 
 The PhoneGap native plugin is written in Objective C, with a JavaScript interface to integrate with the client application. The plugin workflow is as follows:  
